@@ -39,6 +39,6 @@ if __name__=='__main__':
     hr_dict = csv_dict()
     with open("Sample-Result.csv", "w") as csv_file:
         csv_writer = writer(csv_file, delimiter=',')
-        csv_writer.writerow(["PIN", "ALARM", "ENCODE", "HR LABEL"])
+        csv_writer.writerow(["PIN", "ALARM", "ENCODE", "ROW LABEL"])
         for x, y, z, w in hr_dict:
             csv_writer.writerow([x, y, z, w])
