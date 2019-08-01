@@ -42,4 +42,3 @@ if __name__=='__main__':
         csv_writer.writerow(["PIN", "ALARM", "ENCODE", "HR LABEL"])
         for x, y, z, w in hr_dict:
             csv_writer.writerow([x, y, z, w])
-            #print([hr_uniq, hr_label, n])
